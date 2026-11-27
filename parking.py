@@ -1,4 +1,7 @@
 print("VEHICLE PARKING FEE CALCULATOR")
+
+vehicle_number = input("Enter vehicle number: ")
+
 print("\nVehicle Types:")
 print("1. Two-wheeler")
 print("2. Four-wheeler")
@@ -29,6 +32,7 @@ else:
     total_fee = rate * hours
 
     print("\nPARKING DETAILS")
+    print("Vehicle number:", vehicle_number)
     print("Vehicle Type:", vehicle_type)
     print("Parking Duration:", hours, "hours")
     print("Total Parking Fee: Rs.", total_fee)
